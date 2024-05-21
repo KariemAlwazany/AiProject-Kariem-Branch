@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="785.0" style="-fx-background-color: #DDE6ED;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="stick_5" fitHeight="104.0" fitWidth="232.0" layoutX="301.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_13" fitHeight="104.0" fitWidth="232.0" layoutX="355.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_6" fitHeight="104.0" fitWidth="232.0" layoutX="328.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_14" fitHeight="104.0" fitWidth="232.0" layoutX="382.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_12" fitHeight="104.0" fitWidth="232.0" layoutX="329.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_7" fitHeight="104.0" fitWidth="232.0" layoutX="355.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_8" fitHeight="104.0" fitWidth="232.0" layoutX="382.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_3" fitHeight="104.0" fitWidth="232.0" layoutX="355.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_4" fitHeight="104.0" fitWidth="232.0" layoutX="382.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_2" fitHeight="104.0" fitWidth="232.0" layoutX="328.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_9" fitHeight="104.0" fitWidth="232.0" layoutX="409.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_15" fitHeight="104.0" fitWidth="232.0" layoutX="409.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_16" fitHeight="104.0" fitWidth="232.0" layoutX="435.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_11" fitHeight="104.0" fitWidth="232.0" layoutX="301.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_10" fitHeight="104.0" fitWidth="232.0" layoutX="274.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stick_1" fitHeight="104.0" fitWidth="232.0" layoutX="355.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png-transparent-matchstick-thumbnail.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

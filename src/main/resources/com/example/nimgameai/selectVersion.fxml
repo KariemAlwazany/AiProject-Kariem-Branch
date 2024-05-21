@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1000.0" style="-fx-background-color: #DDE6ED;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nimgameai.SelectVersionController">
+   <children>
+      <StackPane fx:id="stackpane" layoutX="216.0" prefHeight="720.0" prefWidth="785.0" />
+      <Label layoutX="216.0" layoutY="703.0" text="Copyrights reserved to Kariem AbuAisheh and Mohammed Alkhateeb" />
+      <JFXButton fx:id="version1" layoutX="449.0" layoutY="575.0" onAction="#openVersion1" prefHeight="38.0" prefWidth="96.0" style="-fx-background-radius: 7;" styleClass="version1" stylesheets="@Style.css" text="Version 1">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="version2" layoutX="597.0" layoutY="574.0" onAction="#openVersion2" prefHeight="38.0" prefWidth="96.0" style="-fx-background-radius: 7;" styleClass="version2" stylesheets="@Style.css" text="Version 2">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <StackPane layoutX="-36.0" prefHeight="720.0" prefWidth="253.0" style="-fx-background-color: #9DB2BF; -fx-background-radius: 40;">
+         <children>
+            <JFXButton onAction="#home" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Home" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="540.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="rules" onAction="#rules" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Rules" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="397.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="65.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton onAction="#close" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Quit" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="570.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+         </children>
+      </StackPane>
+      <Label layoutX="485.0" layoutY="14.0" text="Select Version">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="welcomeMessage" layoutX="455.0" layoutY="249.0" prefHeight="99.0" prefWidth="218.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

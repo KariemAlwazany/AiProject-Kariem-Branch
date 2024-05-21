@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1000.0" style="-fx-background-color: #DDE6ED;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nimgameai.rulesController">
+   <children>
+      <Label layoutX="216.0" layoutY="703.0" text="Copyrights reserved to Kariem AbuAisheh and Mohammed Alkhateeb" />
+      <StackPane layoutX="-36.0" prefHeight="720.0" prefWidth="253.0" style="-fx-background-color: #9DB2BF; -fx-background-radius: 40;">
+         <children>
+            <JFXButton onAction="#home" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Home" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="540.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton onAction="#close" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Quit" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="570.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton fx:id="rules1" onAction="#selectVerison" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Select Version" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+               <StackPane.margin>
+                  <Insets bottom="397.0" />
+               </StackPane.margin>
+            </JFXButton>
+         </children>
+      </StackPane>
+      <Label layoutX="554.0" layoutY="14.0" text="Rules">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="75.0" prefHeight="35.0" prefWidth="737.0" text="The game begins with several sticks or rows of sticks, The number of sticks per row">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="101.0" prefHeight="35.0" prefWidth="737.0" text="can vary.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="136.0" prefHeight="35.0" prefWidth="737.0" text="Who removes the last stick will lose!">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="162.0" prefHeight="35.0" prefWidth="737.0" text="How to play:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="188.0" prefHeight="35.0" prefWidth="737.0" text="-Player or AI takes turn.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="214.0" prefHeight="35.0" prefWidth="737.0" text="Version1: you can remove any number of sticks in one row ant turn, you can't remove">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="247.0" layoutY="238.0" prefHeight="35.0" prefWidth="737.0" text="sticks from multiple row at single turn.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="273.0" prefHeight="35.0" prefWidth="737.0" text="Version2: you can remove 3 sticks only at turn">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="308.0" prefHeight="35.0" prefWidth="737.0" text="-Player or AI takes turn.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="538.0" layoutY="388.0" prefHeight="35.0" prefWidth="92.0" text="Have Fun!">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

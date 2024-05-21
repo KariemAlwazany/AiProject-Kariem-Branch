@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1000.0" style="-fx-background-color: #DDE6ED;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nimgameai.Version2Controller">
+   <children>
+      <Label layoutX="407.0" layoutY="475.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="703.0" text="Copyrights reserved to Kariem AbuAisheh and Mohammed Alkhateeb" />
+      <StackPane layoutX="-36.0" prefHeight="720.0" prefWidth="253.0" style="-fx-background-color: #9DB2BF; -fx-background-radius: 40;">
+         <children>
+            <JFXButton onAction="#home" prefHeight="71.0" prefWidth="254.0" styleClass="btn" stylesheets="@Style.css" text="Home" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="540.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton onAction="#rules" prefHeight="71.0" prefWidth="253.0" styleClass="btn" stylesheets="@Style.css" text="Rules" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="397.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="65.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton onAction="#close" prefHeight="71.0" prefWidth="252.0" styleClass="btn" stylesheets="@Style.css" text="Quit" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets top="570.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="60.0" />
+               </padding>
+            </JFXButton>
+            <JFXButton onAction="#openSelectVersion" prefHeight="71.0" prefWidth="296.0" styleClass="btn" stylesheets="@Style.css" text="Select Version" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+               <StackPane.margin>
+                  <Insets bottom="255.0" />
+               </StackPane.margin>
+            </JFXButton>
+            <JFXButton onAction="#back" prefHeight="71.0" prefWidth="296.0" styleClass="btn" stylesheets="@Style.css" text="Back" textFill="#27374d">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+               <StackPane.margin>
+                  <Insets bottom="113.0" />
+               </StackPane.margin>
+               <padding>
+                  <Insets right="65.0" />
+               </padding>
+            </JFXButton>
+         </children>
+      </StackPane>
+      <Label layoutX="520.0" layoutY="14.0" text="Version2">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="version2Easy" layoutX="430.0" layoutY="490.0" text="Easy">
+         <selectedColor>
+            <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+         </selectedColor>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="version2Hard" layoutX="659.0" layoutY="490.0" text="Hard">
+         <selectedColor>
+            <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+         </selectedColor>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="version2Medium" layoutX="539.0" layoutY="490.0" text="Medium">
+         <selectedColor>
+            <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+         </selectedColor>
+      </JFXRadioButton>
+      <JFXComboBox fx:id="version2ComboBox" focusColor="#637b8d" labelFloat="true" layoutX="504.0" layoutY="530.0" onAction="#sticks" promptText="Number of sticks" />
+      <StackPane fx:id="StackPane" layoutX="218.0" layoutY="49.0" prefHeight="440.0" prefWidth="785.0" />
+   </children>
+</Pane>

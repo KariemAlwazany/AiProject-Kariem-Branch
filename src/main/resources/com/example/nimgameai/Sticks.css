@@ -1,0 +1,3 @@
+.sticks:hover {
+    -fx-effect: dropshadow(gaussian, black, 10, 0, 0, 0);
+}

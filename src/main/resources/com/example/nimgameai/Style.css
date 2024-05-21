@@ -1,0 +1,28 @@
+.continue{
+    -fx-background-color: #9DB2BF;
+}
+.continue:hover{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #637b8d;
+}
+.btn:hover{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #637b8d;
+}
+.version1{
+    -fx-background-color: #9DB2BF;
+}
+.version1:hover{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #637b8d;
+}
+.version2{
+    -fx-background-color: #9DB2BF;
+}
+.version2:hover{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #637b8d;
+}
+.label:hover{
+    -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 0);
+}

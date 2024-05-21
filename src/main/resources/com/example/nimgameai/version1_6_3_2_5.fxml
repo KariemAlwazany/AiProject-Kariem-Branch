@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="StackPane" prefHeight="440.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nimgameai.version1_6_3_2_5">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="788.0" style="-fx-background-color: #DDE6ED;">
+         <children>
+            <JFXButton fx:id="playButton" layoutX="299.0" layoutY="572.0" onAction="#play" prefHeight="38.0" prefWidth="101.0" style="-fx-background-radius: 7;" styleClass="version2" stylesheets="@Style.css" text="Start">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXRadioButton fx:id="version1Easy1" layoutX="213.0" layoutY="442.0" text="Easy">
+               <selectedColor>
+                  <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="version1Hard1" layoutX="442.0" layoutY="442.0" text="Hard">
+               <selectedColor>
+                  <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="version1Medium1" layoutX="322.0" layoutY="442.0" text="Medium">
+               <selectedColor>
+                  <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXComboBox fx:id="version1ComboBox1" focusColor="#637b8d" labelFloat="true" layoutX="287.0" layoutY="482.0" promptText="Number of sticks" />
+            <JFXRadioButton fx:id="version1Me" layoutX="289.0" layoutY="530.0" text="ME">
+               <selectedColor>
+                  <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="version1Ai" layoutX="372.0" layoutY="530.0" text="AI">
+               <selectedColor>
+                  <Color red="0.38823530077934265" green="0.48235294222831726" blue="0.5529412031173706" />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXButton fx:id="playAgain" layoutX="298.0" layoutY="572.0" onAction="#playAgain" prefHeight="38.0" prefWidth="101.0" style="-fx-background-radius: 7;" styleClass="version2" stylesheets="@Style.css" text="Play Again">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </JFXButton>
+            <ImageView fx:id="stick_1" fitHeight="104.0" fitWidth="232.0" layoutX="358.0" layoutY="12.0" onMouseClicked="#deleteStick1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_5" fitHeight="104.0" fitWidth="232.0" layoutX="292.0" layoutY="327.0" onMouseClicked="#deleteStick5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_13" fitHeight="104.0" fitWidth="232.0" layoutX="358.0" layoutY="220.0" onMouseClicked="#deleteStick13" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_6" fitHeight="104.0" fitWidth="232.0" layoutX="415.0" layoutY="12.0" onMouseClicked="#deleteStick6" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_14" fitHeight="104.0" fitWidth="232.0" layoutX="331.0" layoutY="220.0" onMouseClicked="#deleteStick14" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_12" fitHeight="104.0" fitWidth="232.0" layoutX="400.0" layoutY="327.0" onMouseClicked="#deleteStick12" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_7" fitHeight="104.0" fitWidth="232.0" layoutX="372.0" layoutY="327.0" onMouseClicked="#deleteStick7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_8" fitHeight="104.0" fitWidth="232.0" layoutX="344.0" layoutY="327.0" onMouseClicked="#deleteStick8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_3" fitHeight="104.0" fitWidth="232.0" layoutX="317.0" layoutY="327.0" onMouseClicked="#deleteStick3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_4" fitHeight="104.0" fitWidth="232.0" layoutX="372.0" layoutY="116.0" onMouseClicked="#deleteStick4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_2" fitHeight="104.0" fitWidth="232.0" layoutX="344.0" layoutY="116.0" onMouseClicked="#deleteStick2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_9" fitHeight="104.0" fitWidth="232.0" layoutX="316.0" layoutY="116.0" onMouseClicked="#deleteStick9" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_15" fitHeight="104.0" fitWidth="232.0" layoutX="278.0" layoutY="12.0" onMouseClicked="#deleteStick15" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_16" fitHeight="104.0" fitWidth="232.0" layoutX="386.0" layoutY="12.0" onMouseClicked="#deleteStick16" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_11" fitHeight="104.0" fitWidth="232.0" layoutX="330.0" layoutY="12.0" onMouseClicked="#deleteStick11" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="stick_10" fitHeight="104.0" fitWidth="232.0" layoutX="304.0" layoutY="12.0" onMouseClicked="#deleteStick10" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-transparent-matchstick-thumbnail.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
